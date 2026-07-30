@@ -1,4 +1,4 @@
-const baseApi = "http://localhost:3000"
+const baseApi = 'https://uc14-deploy-back.onrender.com'
 
 async function verify() {
     const res = await fetch(`${baseApi}/me`, {
